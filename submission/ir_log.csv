@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S06_ir.png,IR_sim,Ảnh IR nhìn thấy được các vật thể trong vùng tối mà ảnh RGB không thể hiện rõ,object visibility,Các vật thể có thể bị bỏ sót nếu chỉ dựa vào ảnh RGB để gán nhãn
+S03_ir.png,IR_sim,Ảnh IR cho thấy vật thể rõ ràng nhưng ảnh RGB khó nhận biết ranh giới của vật thể,object bounding box,Ranh giới vật thể khó xác định chính xác khi vẽ bounding box trên ảnh RGB
+D02.png,real_IR,Khó phân biệt trạng thái mắt mở hay nhắm trên ảnh hồng ngoại,eye_left và eye_right,Việc xác định trạng thái mắt có thể không chính xác
+D05.png,real_IR,Khó phân biệt trạng thái mắt mở hay nhắm trên ảnh hồng ngoại,eye_left và eye_right,Việc xác định trạng thái mắt có thể không chính xác

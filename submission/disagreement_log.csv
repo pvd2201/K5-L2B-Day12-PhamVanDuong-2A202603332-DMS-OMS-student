@@ -1,0 +1,22 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Đã thống nhất occluded=1; Phi Hùng sửa theo mine và export mới không còn khác biệt.
+D02.png,face,gaze_zone,khác giá trị (IoU=0.94),road,cluster,mine,4.5,Phi Hùng sửa gaze_zone thành road theo mine; hai export mới đã thống nhất.
+D03.png,face,gaze_zone,khác giá trị (IoU=0.72),road,mirror_c,peer,4.5,Đã đổi từ road sang mirror_c theo peer; export mới không còn khác biệt.
+D05.png,face13,left_eye_outer.occluded,khác cờ,1,0,peer,4.6,Đã sửa cờ theo peer; export mới không còn khác biệt.
+D05.png,face13,right_eye_inner.occluded,khác cờ,1,0,peer,4.6,Đã sửa cờ theo peer; export mới không còn khác biệt.
+D05.png,face13,lip_upper.occluded,khác cờ,1,0,peer,4.6,Đã sửa cờ theo peer; export mới không còn khác biệt.
+D05.png,face13,lip_lower.occluded,khác cờ,1,0,peer,4.6,Đã sửa cờ theo peer; export mới không còn khác biệt.
+D05.png,face13,mouth_right.occluded,khác cờ,0,1,peer,4.6,Đã sửa cờ theo peer; hai export mới đều có occluded=1.
+D06.png,face,eye_left,khác giá trị (IoU=0.93),closed,open,peer,4.5,Đã sửa eye_left thành open theo peer; export mới không còn khác biệt.
+D06.png,face,gaze_zone,khác giá trị (IoU=0.93),lap,other,peer,4.5,Đã sửa gaze_zone thành other theo peer; export mới không còn khác biệt.
+D06.png,face13,mouth_right.occluded,khác cờ,1,0,peer,4.6,Đã sửa cờ theo peer; export mới không còn khác biệt.
+S01_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,peer,4.8,Đã sửa facing từ rear thành front theo đúng hướng ghế.
+S01_rgb.png,infant_seat,facing,khác giá trị (IoU=1.00),rear,front,peer,4.8,Đã sửa facing từ rear thành front theo đúng hướng ghế.
+S04_ir.png,face,gaze_zone,khác giá trị (IoU=0.90),lap,other,peer,4.5,Hai export mới đều dùng other; giá trị này khớp với peer trong diff trước.
+S04_rgb.png,face,gaze_zone,khác giá trị (IoU=0.86),lap,other,peer,4.5,Hai export mới đều dùng other; giá trị này khớp với peer trong diff trước.
+S05_ir.png,infant_seat,seat,khác giá trị (IoU=0.98),rear_left,rear_right,peer,4.4-3,Đã sửa seat từ rear_left thành rear_right theo phía của xe.
+S05_ir.png,object,type,khác giá trị (IoU=0.98),cup,other,mine,4.8,Hai export mới đều dùng cup; giá trị này khớp với mine trong diff trước.
+S05_rgb.png,object,type,khác giá trị (IoU=0.94),cup,other,mine,4.8,Hai export mới đều dùng cup; giá trị này khớp với mine trong diff trước.
+S05_rgb.png,infant_seat,seat,khác giá trị (IoU=0.99),rear_left,rear_right,peer,4.4-3,Đã sửa seat từ rear_left thành rear_right theo phía của xe.
+S08_ir.png,face,gaze_zone,khác giá trị (IoU=0.69),road,other,peer,4.5,Đã sửa gaze_zone thành other theo peer; export mới không còn khác biệt.
+S08_rgb.png,face,gaze_zone,khác giá trị (IoU=0.69),road,other,peer,4.5,Đã sửa gaze_zone thành other theo peer; export mới không còn khác biệt.
